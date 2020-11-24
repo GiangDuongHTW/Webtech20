@@ -1,13 +1,20 @@
 body{
     font-family: Verdana;
+
+}
+body
+
+footer{
+    background-color: orange;
+
+
+
 }
 header{
     background-color: grey;
     color: orange;
+    text-align: center;
 
 
-}
-footer{
-    background-color: orange;
 
 }

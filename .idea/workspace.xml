@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fe5c461-c075-42f1-b6bd-285c6a759524" name="Default Changelist" comment="">
+    <list default="true" id="2fe5c461-c075-42f1-b6bd-285c6a759524" name="Default Changelist" comment="Abgabe 4, 5">
       <change beforePath="$PROJECT_DIR$/Uebung1/Unterordner/ag.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/Unterordner/ag.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Uebung1/Unterordner/hl.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/Unterordner/hl.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Uebung1/Unterordner/mr.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/Unterordner/mr.html" afterDir="false" />
@@ -105,7 +105,16 @@
       <workItem from="1605953193068" duration="12727000" />
       <workItem from="1606220470023" duration="3755000" />
       <workItem from="1606229973251" duration="407000" />
+      <workItem from="1606233692611" duration="369000" />
     </task>
+    <task id="LOCAL-00001" summary="Abgabe 4, 5">
+      <created>1606233900403</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606233900403</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +131,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Abgabe 4, 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abgabe 4, 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="646" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604038611443">
