@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title> HTML ändern</title>
+</head>
+<body class=" container-fluid">
+    <input id="input1" type ="text" class="form-control" placeholder="neues Item" onchange="doSomething()"/>
+
+    <ul id="ul1" class="list-group">
+        <li class="list-group-item active">erster</li>
+        <li class="list-group-item">zweiter</li>
+        <li class="list-group-item">dritter</li>
+    </ul>
+
+    <script>
+        function doSomething() {
+            let ip1= document.getElementById("input1");
+            let ip1_value= ip1.value;
+            let ul= document.getElementById("ul1");
+            let neu_li= document.createElement("li");
+            neu_li.classList.add("list-group-item");
+
+
+
+            neu_li.innerHTML=ip1_value + "<span style='color: red;'> test </span>";
+            //neu_li.appendChild(ip1_value);
+           // ul.appendChild(neu_li);
+
+
+
+        }
+
+            /*let input1= document.getElementById('input1');
+            let input1_value=input1.value;//--value zugreifen auf dem Wert
+            let ul1 = document.getElementById('ul1');
+
+            let new_item= document.createElement('li');
+            new_item.appendChild(input1_value);
+            ul1.appendChild(new_item);
+
+            new_item.classList.add("list-group-item");
+            //weisen new_item zu Klasse "list-group-item" zu
+            /!*let new_text=document.createTextNode(input1_value);
+            new_item.appendChild(new_text);//li-->value
+            -->eigene Textknoten erzeugen und im neuen Li item anhängen
+            *!/
+            new_item.innerHTML= input1_value + "<span style='color: red'>test</span>";
+            //einfacher mit innerHTML, beschreiben wir was sollen in
+            //list item an HTML drin stellt
+            //ul1.appendChild(new_item);
+           let listitems=document.getElementsByTagName('li');
+            for(let i=0;i<listitems.length;i++)
+            {
+                console.log(listitems[i]);
+            }
+            ul1.insertBefore(new_item, listitems[0]);
+        }*/
+
+    </script>
+
+
+</body>
+</html>

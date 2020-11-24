@@ -1,0 +1,66 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JSON+AJAX</title>
+    </head>
+    <body>
+    <h3>Objekte</h3>
+    <div id="div1"></div>
+    <button type="button" onclick="showObjects()">Show Objects</button>
+    <script>
+
+
+        function showObjects() {
+
+            let person = {// Objekt mit eigenschaften vorname, nachname...
+                vorname: "Maria",
+                nachname: "Musterfrau",
+                kinder: {
+                    max:{
+                        vorname: "Max",
+                    alter:7
+                     },
+                    moritz:{
+                     vorname: "Moritz",
+                    alter: 3
+                     },
+                    auskunft: function (){
+                        return "F: " + this.vorname + " " + this.nachname;
+                    }
+                 }
+            }
+            console.log(person.auskunft());
+            person.wohnort= "Musterdorf";//weitere Eigenschaften hinzufügen
+            console.log(person);
+            console.log(person.vorname+" "+ person.nachname);
+            document.getElementById("div1").innerHTML +=person.vorname+" "+ person.nachname + "</br>";
+
+           /* let kinder=person.kinder;
+            for(let i=0; i<kinder.length; i++){
+                console.log(kinder[i].vorname);
+            }*/
+            console.log(person.kinder.max.vorname);//zugriff auf #
+
+            for(let eigentschaften in person)
+            {
+                console.log(eigentschaften);
+                console.log(person[eigentschaften]);
+            }
+            for(let eigentschaften in person.kinder)
+            {
+                console.log(person.kinder[eigentschaften].vorname);
+                //ÜBER Punknotation zugreifen auf eigene Werte
+                for(let kidseig in person.kinder[eigentschaften])
+                {
+                    console.log(person.kinder[eigentschaften][kidseig])
+
+                }
+            }
+
+            let json_obj= JSON.stringify(person);// Diese Funtion nimmt ein Javascript Objekt(person)
+            document.getElementById("div1").innerHTML += json_obj;
+        }
+    </script>
+    </body>
+    </html>
