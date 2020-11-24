@@ -10,17 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fe5c461-c075-42f1-b6bd-285c6a759524" name="Default Changelist" comment="Abgabe 4, 5">
-      <change beforePath="$PROJECT_DIR$/Uebung1/Unterordner/ag.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/Unterordner/ag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uebung1/Unterordner/hl.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/Unterordner/hl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uebung1/Unterordner/mr.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/Unterordner/mr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uebung1/Unterordner/sz.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/Unterordner/sz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uebung1/uebung1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/uebung1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uebung2/Copy/styles/mystyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung2/Copy/styles/mystyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uebung2/Copy/uebung2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung2/Copy/uebung2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uebung3/uebung3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung3/uebung3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bsp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bsp/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="2fe5c461-c075-42f1-b6bd-285c6a759524" name="Default Changelist" comment="Abgabe 4, 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +95,7 @@
       <workItem from="1605953193068" duration="12727000" />
       <workItem from="1606220470023" duration="3755000" />
       <workItem from="1606229973251" duration="407000" />
-      <workItem from="1606233692611" duration="369000" />
+      <workItem from="1606233692611" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="Abgabe 4, 5">
       <created>1606233900403</created>
@@ -114,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606233900403</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Abgabe 4, 5">
+      <created>1606234069798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606234069798</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +142,14 @@
       <screen x="0" y="23" width="1440" height="836" />
     </state>
     <state x="645" y="302" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.836@0.23.1440.836" timestamp="1606171662329" />
+    <state x="588" y="168" key="RollbackChangesDialog" timestamp="1606233796300">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="588" y="168" key="RollbackChangesDialog/0.23.1440.836@0.23.1440.836" timestamp="1606233796300" />
+    <state x="395" y="182" key="Vcs.Push.Dialog.v2" timestamp="1606234073492">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="395" y="182" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1606234073492" />
     <state x="705" y="184" width="670" height="676" key="search.everywhere.popup" timestamp="1606227046652">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
