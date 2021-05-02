@@ -11,16 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fe5c461-c075-42f1-b6bd-285c6a759524" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/read/form/form.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/read/form/form.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/read/form/form.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/read/form/form.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/read/form/form.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/read/form/form.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/read/form/form.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/read/form/form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend2/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0f34065e-7339-4d06-935f-d6bed2425e15" />
   </component>
   <component name="ProjectId" id="1in712ilv2197UXZHWW16HWMIiI" />
   <component name="ProjectLevelVcsManager">
@@ -124,7 +118,7 @@
       <workItem from="1618472798195" duration="7928000" />
       <workItem from="1618749109553" duration="1381000" />
       <workItem from="1619438724384" duration="25905000" />
-      <workItem from="1619720191602" duration="50953000" />
+      <workItem from="1619720191602" duration="52657000" />
     </task>
     <task id="LOCAL-00001" summary="Abgabe 4, 5">
       <created>1606233900403</created>
@@ -154,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619993933986</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="gitignore&#10;form">
+      <created>1619994617283</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619994617283</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +189,8 @@
     <MESSAGE value="Abgabe 4, 5" />
     <MESSAGE value="abc" />
     <MESSAGE value="Giang" />
-    <option name="LAST_COMMIT_MESSAGE" value="Giang" />
+    <MESSAGE value="gitignore&#10;form" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore&#10;form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="197" y="271" key="#Notifications" timestamp="1619701110199">
@@ -199,19 +201,24 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="704" y="226" key="#Web_Browsers/0.23.1440.837@0.23.1440.837" timestamp="1619992229377" />
-    <state x="386" y="23" key="CommitChangelistDialog2" timestamp="1619993933589">
+    <state x="386" y="23" width="825" height="837" key="CommitChangelistDialog2" timestamp="1619994617111">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="386" y="23" key="CommitChangelistDialog2/0.23.1440.837@0.23.1440.837" timestamp="1619993933589" />
+    <state x="386" y="23" width="825" height="837" key="CommitChangelistDialog2/0.23.1440.837@0.23.1440.837" timestamp="1619994617111" />
+    <state x="647" y="309" width="303" height="208" key="Github.Dialog.Accounts.Choose" timestamp="1619994653131">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="647" y="309" width="303" height="208" key="Github.Dialog.Accounts.Choose/0.23.1440.837@0.23.1440.837" timestamp="1619994653131" />
     <state x="393" y="84" key="SettingsEditor" timestamp="1619989541305">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="393" y="84" key="SettingsEditor/0.23.1440.836@0.23.1440.836" timestamp="1619723610887" />
     <state x="393" y="84" key="SettingsEditor/0.23.1440.838@0.23.1440.838" timestamp="1619989541305" />
-    <state x="430" y="180" key="Vcs.Push.Dialog.v2" timestamp="1618475792135">
-      <screen x="0" y="23" width="1440" height="836" />
+    <state x="430" y="180" key="Vcs.Push.Dialog.v2" timestamp="1619994633820">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="430" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1618475792135" />
+    <state x="430" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.837@0.23.1440.837" timestamp="1619994633820" />
     <state x="882" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618482521461">
       <screen x="0" y="23" width="1440" height="836" />
     </state>

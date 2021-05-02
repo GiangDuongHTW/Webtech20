@@ -1,0 +1,2 @@
+##### Backend wurde mit NodeJS Version 14.16.1 und MySQL erstellt
+##### Die Datenbank wurd mit MySQL von HTW Berlin Studi-Server erstellt . Der Zugriff auf die Datenbank wird in einer Datei namens db.config.js gespeichert 
