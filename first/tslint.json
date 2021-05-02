@@ -139,14 +139,14 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "htw",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "htw",
       "kebab-case"
-    ]
+      ]
   }
 }

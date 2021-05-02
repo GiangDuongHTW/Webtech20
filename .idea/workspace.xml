@@ -10,7 +10,193 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fe5c461-c075-42f1-b6bd-285c6a759524" name="Default Changelist" comment="Abgabe 4, 5" />
+    <list default="true" id="2fe5c461-c075-42f1-b6bd-285c6a759524" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/app/controller/members.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/model/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/model/members.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/routes/members.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/config/db.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first/src/app/mycomponent/mycomponent.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first/src/app/mycomponent/mycomponent.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first/src/app/mycomponent/mycomponent.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first/src/app/mycomponent/mycomponent.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/shared/data.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/shared/data.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/shared/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/create/create.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/create/create.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/create/create.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/create/create.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/delete/delete.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/delete/delete.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/delete/delete.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/delete/delete.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/read/read.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/read/read.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/read/read.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/read/read.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/update/update.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/update/update.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/update/update.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/app/members/update/update.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend3/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/create/create.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/create/create.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/create/create.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/create/create.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/delete/delete.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/delete/delete.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/delete/delete.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/delete/delete.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/read/read.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/read/read.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/read/read.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/read/read.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/update/update.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/update/update.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/update/update.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/members/update/update.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/shared/backend.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/shared/backend.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/app/shared/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend4/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend/app/controller/members.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend/app/model/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend/app/model/members.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend/app/routes/members.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend/config/db.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend2/app/controller/buch.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend2/app/model/buch.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend2/app/model/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend2/app/routes/buch.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend2/config/db.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangbackend2/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/create/create.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/create/create.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/create/create.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/create/create.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/delete/delete.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/delete/delete.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/delete/delete.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/delete/delete.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/read/read.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/read/read.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/read/read.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/read/read.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/update/update.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/update/update.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/update/update.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/update/update.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/shared/backend.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/shared/backend.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/app/shared/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giangfrontend/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebung1/uebung1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/uebung1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/first/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/first/tslint.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,13 +218,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1in712ilv2197UXZHWW16HWMIiI" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -50,7 +242,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/first/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -96,6 +291,14 @@
       <workItem from="1606220470023" duration="3755000" />
       <workItem from="1606229973251" duration="407000" />
       <workItem from="1606233692611" duration="532000" />
+      <workItem from="1606234228457" duration="1536000" />
+      <workItem from="1606508734194" duration="547000" />
+      <workItem from="1614518539767" duration="891000" />
+      <workItem from="1618386856521" duration="1112000" />
+      <workItem from="1618472798195" duration="7928000" />
+      <workItem from="1618749109553" duration="1381000" />
+      <workItem from="1619438724384" duration="25905000" />
+      <workItem from="1619720191602" duration="50150000" />
     </task>
     <task id="LOCAL-00001" summary="Abgabe 4, 5">
       <created>1606233900403</created>
@@ -111,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606234069798</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="abc">
+      <created>1606234292808</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606234292808</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,31 +340,48 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Abgabe 4, 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abgabe 4, 5" />
+    <MESSAGE value="abc" />
+    <option name="LAST_COMMIT_MESSAGE" value="abc" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="646" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604038611443">
-      <screen x="0" y="23" width="1440" height="835" />
-    </state>
-    <state x="646" y="226" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.835@0.23.1440.835" timestamp="1604038611443" />
-    <state x="645" y="302" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606171662329">
+    <state x="197" y="271" key="#Notifications" timestamp="1619701110199">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
-    <state x="645" y="302" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.836@0.23.1440.836" timestamp="1606171662329" />
-    <state x="588" y="168" key="RollbackChangesDialog" timestamp="1606233796300">
+    <state x="197" y="271" key="#Notifications/0.23.1440.836@0.23.1440.836" timestamp="1619701110199" />
+    <state x="704" y="226" key="#Web_Browsers" timestamp="1619992229377">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="704" y="226" key="#Web_Browsers/0.23.1440.837@0.23.1440.837" timestamp="1619992229377" />
+    <state x="393" y="84" key="SettingsEditor" timestamp="1619989541305">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="393" y="84" key="SettingsEditor/0.23.1440.836@0.23.1440.836" timestamp="1619723610887" />
+    <state x="393" y="84" key="SettingsEditor/0.23.1440.838@0.23.1440.838" timestamp="1619989541305" />
+    <state x="430" y="180" key="Vcs.Push.Dialog.v2" timestamp="1618475792135">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
-    <state x="588" y="168" key="RollbackChangesDialog/0.23.1440.836@0.23.1440.836" timestamp="1606233796300" />
-    <state x="395" y="182" key="Vcs.Push.Dialog.v2" timestamp="1606234073492">
+    <state x="430" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1618475792135" />
+    <state x="882" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618482521461">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
-    <state x="395" y="182" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1606234073492" />
-    <state x="705" y="184" width="670" height="676" key="search.everywhere.popup" timestamp="1606227046652">
+    <state x="882" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.836@0.23.1440.836" timestamp="1618482521461" />
+    <state x="782" y="73" width="598" height="738" key="find.popup" timestamp="1619989578696">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="782" y="54" width="600" height="793" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1619983349452" />
+    <state x="782" y="73" width="598" height="735" key="find.popup/0.23.1440.836@0.23.1440.836" timestamp="1619725041642" />
+    <state x="782" y="73" width="598" height="737" key="find.popup/0.23.1440.837@0.23.1440.837" timestamp="1619983902194" />
+    <state x="782" y="73" width="598" height="738" key="find.popup/0.23.1440.838@0.23.1440.838" timestamp="1619989578696" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1618482352787">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
-    <state x="705" y="184" width="670" height="676" key="search.everywhere.popup/0.23.1440.836@0.23.1440.836" timestamp="1606227046652" />
-    <state x="705" y="184" width="670" height="676" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1605112062822" />
+    <state width="600" height="428" key="javadoc.popup/0.23.1440.836@0.23.1440.836" timestamp="1618482352787" />
+    <state x="705" y="184" width="670" height="676" key="search.everywhere.popup" timestamp="1619622294997">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="705" y="184" width="670" height="676" key="search.everywhere.popup/0.23.1440.836@0.23.1440.836" timestamp="1619622294997" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -168,6 +395,23 @@
           <url>file://$PROJECT_DIR$/Uebung4/uebung4.html</url>
           <line>435</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend4/src/app/members/read/form/form.component.html</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/giangfrontend/src/app/members/create/create.component.ts</url>
+          <line>7</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/giangfrontend/src/app/members/create/create.component.ts</url>
+          <line>27</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

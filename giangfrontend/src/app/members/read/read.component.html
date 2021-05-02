@@ -1,0 +1,109 @@
+<div *ngIf="selectedId == 0" class="container">
+  <h2>Meine Bücher</h2>
+  <table class="table table-success table-striped table-hover">
+
+
+    <thead>
+    <tr class="table-primary" >
+      <th class="table-success">Nr.</th>
+      <th class="table-success">Buchname</th>
+      <th class="table-success">Autor</th>
+      <th class="table-success">Inhalt</th>
+      <th class="table-success">Seite</th>
+      <th class="table-success">Note</th>
+      <th class="table-success">Edit</th>
+      <th class="table-success">Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let buch of buecher; let i=index; trackBy: trackByData">
+      <td>{{ i+1 }}</td>
+      <td>{{buch.Buchname}}</td>
+      <td>{{buch.Autor}}</td>
+      <td>{{buch.Inhalt}}</td>
+      <td>{{buch.Seite}}</td>
+      <td>{{buch.Note}}</td>
+      <td><a [routerLink]="['/read/', buch.id]"><i-bs
+        name="pencil-square"
+        class="text-secondary"
+        width="1em"
+        height="1em">
+      </i-bs></a></td>
+      <td><i-bs
+        name="trash"
+        class="text-secondary"
+        width="1em"
+        height="1em"
+        (click)="open(content, buch.id)">
+      </i-bs></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div *ngIf="selectedId > 0" class="container">
+  <div *ngIf="error">
+    <h1>{{ selectedId }}</h1>
+    <p>{{ error?.message }}</p>
+    <p>{{ error?.status }}</p>
+    <app-form></app-form>
+    <p><a [routerLink]="['/read']">Zurück zur Tabelle</a></p>
+  </div>
+  <div *ngIf="buch">
+    <app-form [data]="buch" (updateEvent)="update($event)"></app-form>
+  </div>
+</div>
+
+<!-- modaler Dialog fuer das Loeschen -->
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Confirm delete</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('cancel')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <h4 style="color: red">Do you really want to delete this data set?</h4>
+    <form [formGroup]="form">
+      <div class="form-group">
+        <label for="inpId">id</label>
+        <div class="input-group">
+          <input id="inpId" class="form-control" formControlName="idControl" value="{{ buch?.id }}" readonly>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inpBN">Buchname</label>
+        <div class="input-group">
+          <input id="inpBN" class="form-control" formControlName="BuchnameControl" value="{{ buch?.Buchname }}" readonly>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inpAutor">Autor</label>
+        <div class="input-group">
+          <input id="inpAutor" class="form-control" formControlName="AutorControl" value="{{ buch?.Autor }}" readonly>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inpInhalt">Inhalt</label>
+        <div class="input-group">
+          <input id="inpInhalt" class="form-control" formControlName="InhaltControl" value="{{ buch?.Inhalt }}" readonly>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inpSeite">Seite</label>
+        <div class="input-group">
+          <input id="inpSeite" class="form-control" formControlName="SeiteControl" value="{{ buch?.Seite }}" readonly>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inpNote">Note</label>
+        <div class="input-group">
+          <input id="inpNote" class="form-control" formControlName="NoteControl" value="{{ buch?.Note }}" readonly>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="modal.close('cancel')">Cancel</button>
+    <button type="button" class="btn btn-primary" (click)="modal.close('delete')">Delete</button>
+  </div>
+</ng-template>
