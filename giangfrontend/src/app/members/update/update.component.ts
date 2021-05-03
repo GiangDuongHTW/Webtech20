@@ -10,16 +10,7 @@ import {BackendService} from '../../shared/backend.service';
   templateUrl: './update.component.html',
   styleUrls: ['./update.component.css']
 })
-/*export class UpdateComponent implements OnInit {
-  selectedId: number;
 
-  constructor(private route: ActivatedRoute) { }
-
-  ngOnInit(): void {
-    this.selectedId = Number(this.route.snapshot.paramMap.get('id'));
-  }
-
-}*/
 export class UpdateComponent implements OnInit {
   form: FormGroup;
   data: Data;

@@ -1,10 +1,23 @@
 
-<header class="text-center">
-<h1 style="">Meine Buchsammlung</h1>
-</header>
-<div class="list-group btn-info">
-  <a href="#" [routerLink]="['/create']" class="list-group-item list-group-item-action list-group-item-primary alert-link" >Erstellen</a>
-  <a href="#" [routerLink]="['/read']" class="list-group-item list-group-item-action list-group-item-primary alert-link">Lesen</a>
-</div>
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="width: 100%">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]= "['../startseite']"> Die Buchsammlung </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  [routerLink]= "['/create']" > Erstellen </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]= "['/read']"> Lesen </a>
+        </li>
+      </ul>
 
+    </div>
+  </div>
+</nav>
 <router-outlet></router-outlet>

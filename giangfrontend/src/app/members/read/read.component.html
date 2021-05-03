@@ -11,8 +11,8 @@
       <th class="table-success">Inhalt</th>
       <th class="table-success">Seite</th>
       <th class="table-success">Note</th>
-      <th class="table-success">Bearbeiten</th>
-      <th class="table-success">Löschen</th>
+      <th class="table-success" style="text-align: center">Bearbeiten</th>
+      <th class="table-success" style="text-align: center">Löschen</th>
     </tr>
     </thead>
     <tbody>
@@ -23,13 +23,13 @@
       <td>{{buch.Inhalt}}</td>
       <td>{{buch.Seite}}</td>
       <td>{{buch.Note}}</td>
-      <td><a [routerLink]="['/read/', buch.id]"><i-bs
+      <td style="text-align: center"><a [routerLink]="['/read/', buch.id]"><i-bs
         name="pencil-square"
         class="text-secondary"
         width="1em"
         height="1em">
       </i-bs></a></td>
-      <td><i-bs
+      <td style="text-align: center"><i-bs
         name="trash"
         class="text-secondary"
         width="1em"
@@ -103,7 +103,7 @@
     </form>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-secondary" (click)="modal.close('cancel')">stornieren</button>
-    <button type="button" class="btn btn-primary" (click)="modal.close('delete')">löschen</button>
+    <button type="button" class="btn btn-secondary" (click)="modal.close('cancel')">Stornieren</button>
+    <button type="button" class="btn btn-primary" (click)="modal.close('delete')">Löschen</button>
   </div>
 </ng-template>

@@ -13,6 +13,7 @@ import { NgxBootstrapIconsModule,pencilSquare, trash } from 'ngx-bootstrap-icons
 import {ReactiveFormsModule} from "@angular/forms";
 import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { FormComponent } from './members/read/form/form.component';
+import { StartseiteComponent } from './members/startseite/startseite.component';
 
 const icons = {
   pencilSquare,
@@ -28,6 +29,7 @@ const icons = {
     UpdateComponent,
     DeleteComponent,
     FormComponent,
+    StartseiteComponent,
     //FormComponent
   ],
   imports: [

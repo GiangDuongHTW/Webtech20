@@ -4,6 +4,7 @@ import { CreateComponent } from './members/create/create.component';
 import { UpdateComponent } from './members/update/update.component';
 import { ReadComponent } from './members/read/read.component';
 import { DeleteComponent } from './members/delete/delete.component';
+import { StartseiteComponent } from './members/startseite/startseite.component';
 
 const routes: Routes = [
   { path: 'create', component: CreateComponent },
@@ -13,7 +14,10 @@ const routes: Routes = [
   { path: 'read/:id', component: ReadComponent },
   { path: 'delete', component: DeleteComponent },
   { path: 'delete/:id', component: DeleteComponent },
+  { path: 'startseite', component: StartseiteComponent },
+  {path: '**', redirectTo: 'startseite', pathMatch: 'full'}
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
