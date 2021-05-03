@@ -1,6 +1,10 @@
-<h1 style="background: antiquewhite">Meine Buchsammlung</h1>
-<div class="list-group">
-  <a [routerLink]="['/create']" class="list-group-item list-group-item-action list-group-item-primary" >Erstellen</a>
-  <a [routerLink]="['/read']" class="list-group-item list-group-item-action list-group-item-primary">Lesen</a>
+
+<header class="text-center">
+<h1 style="">Meine Buchsammlung</h1>
+</header>
+<div class="list-group btn-info">
+  <a href="#" [routerLink]="['/create']" class="list-group-item list-group-item-action list-group-item-primary alert-link" >Erstellen</a>
+  <a href="#" [routerLink]="['/read']" class="list-group-item list-group-item-action list-group-item-primary alert-link">Lesen</a>
 </div>
+
 <router-outlet></router-outlet>

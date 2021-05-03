@@ -11,8 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fe5c461-c075-42f1-b6bd-285c6a759524" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/giangbackend2/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend4/src/app/members/read/read.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend4/src/app/members/read/read.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giangfrontend/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/giangfrontend/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giangfrontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/giangfrontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giangfrontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/giangfrontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giangfrontend/src/app/members/create/create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/create/create.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giangfrontend/src/app/members/read/form/form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/read/form/form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giangfrontend/src/app/members/read/read.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/giangfrontend/src/app/members/read/read.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +124,8 @@
       <workItem from="1618472798195" duration="7928000" />
       <workItem from="1618749109553" duration="1381000" />
       <workItem from="1619438724384" duration="25905000" />
-      <workItem from="1619720191602" duration="52657000" />
+      <workItem from="1619720191602" duration="52751000" />
+      <workItem from="1620025135878" duration="4297000" />
     </task>
     <task id="LOCAL-00001" summary="Abgabe 4, 5">
       <created>1606233900403</created>
@@ -155,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619994617283</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Readme.md giangbackend2">
+      <created>1619997612407</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619997612407</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +204,8 @@
     <MESSAGE value="abc" />
     <MESSAGE value="Giang" />
     <MESSAGE value="gitignore&#10;form" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore&#10;form" />
+    <MESSAGE value="Readme.md giangbackend2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme.md giangbackend2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="197" y="271" key="#Notifications" timestamp="1619701110199">
@@ -201,10 +216,10 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="704" y="226" key="#Web_Browsers/0.23.1440.837@0.23.1440.837" timestamp="1619992229377" />
-    <state x="386" y="23" width="825" height="837" key="CommitChangelistDialog2" timestamp="1619994617111">
+    <state x="386" y="23" width="825" height="837" key="CommitChangelistDialog2" timestamp="1619997612265">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="386" y="23" width="825" height="837" key="CommitChangelistDialog2/0.23.1440.837@0.23.1440.837" timestamp="1619994617111" />
+    <state x="386" y="23" width="825" height="837" key="CommitChangelistDialog2/0.23.1440.837@0.23.1440.837" timestamp="1619997612265" />
     <state x="647" y="309" width="303" height="208" key="Github.Dialog.Accounts.Choose" timestamp="1619994653131">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -214,21 +229,21 @@
     </state>
     <state x="393" y="84" key="SettingsEditor/0.23.1440.836@0.23.1440.836" timestamp="1619723610887" />
     <state x="393" y="84" key="SettingsEditor/0.23.1440.838@0.23.1440.838" timestamp="1619989541305" />
-    <state x="430" y="180" key="Vcs.Push.Dialog.v2" timestamp="1619994633820">
+    <state x="430" y="180" key="Vcs.Push.Dialog.v2" timestamp="1619997623392">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="430" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1618475792135" />
-    <state x="430" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.837@0.23.1440.837" timestamp="1619994633820" />
+    <state x="430" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.837@0.23.1440.837" timestamp="1619997623392" />
     <state x="882" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618482521461">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
     <state x="882" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.836@0.23.1440.836" timestamp="1618482521461" />
-    <state x="782" y="73" width="598" height="738" key="find.popup" timestamp="1619989578696">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="782" y="73" width="598" height="737" key="find.popup" timestamp="1620033849256">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="782" y="54" width="600" height="793" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1619983349452" />
     <state x="782" y="73" width="598" height="735" key="find.popup/0.23.1440.836@0.23.1440.836" timestamp="1619725041642" />
-    <state x="782" y="73" width="598" height="737" key="find.popup/0.23.1440.837@0.23.1440.837" timestamp="1619983902194" />
+    <state x="782" y="73" width="598" height="737" key="find.popup/0.23.1440.837@0.23.1440.837" timestamp="1620033849256" />
     <state x="782" y="73" width="598" height="738" key="find.popup/0.23.1440.838@0.23.1440.838" timestamp="1619989578696" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1618482352787">
       <screen x="0" y="23" width="1440" height="836" />
@@ -254,19 +269,16 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/frontend4/src/app/members/read/form/form.component.html</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/giangfrontend/src/app/members/create/create.component.ts</url>
           <line>7</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/giangfrontend/src/app/members/create/create.component.ts</url>
           <line>27</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
